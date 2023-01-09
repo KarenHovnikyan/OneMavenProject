@@ -2,6 +2,24 @@ import java.util.Arrays;
 
 public class Stringclass {
 
+    public boolean checkEquals(String inputString1, String inputString2) {
+        return inputString1.equals(inputString2);
+    }
+    public boolean checkLength(String inputString, int length) {
+        return inputString.length() == length;
+    }
+
+    public boolean checkCharAt(String inputString, int index, char simbole) {
+        return inputString.charAt(index) == simbole;
+    }
+
+    public boolean checkSubString(String inputString, String subString, int start, int end) {
+        return inputString.substring(start,end).equals(subString);
+    }
+
+    public int checkIndexOf(String inputString, String characterWanted) {
+        return inputString.indexOf(characterWanted);
+    }
 
     public boolean checkIsogram(String inputString)
     {

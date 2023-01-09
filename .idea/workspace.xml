@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f3ca06d-9c3e-4917-8e53-d054ed3d533f" name="Changes" comment="Creating StringClass and StringClassTest Tests Add methods Isogram, Panagram and Anagram">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Stringclass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StringclassTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Stringclass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Stringclass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StringclassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StringclassTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673257630955</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Creating StringClass and StringClassTest Tests Add methods Isogram, Panagram and Anagram">
+      <created>1673264898831</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673264898831</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

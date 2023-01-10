@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f3ca06d-9c3e-4917-8e53-d054ed3d533f" name="Changes" comment="create Xml file in project:&#10;marshal and unmarshal that xml files in JAXB technology">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/testing/jaxb/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/testing/jaxb/BookJAXB.java" afterDir="false" />
+    <list default="true" id="45bed940-9a6b-475e-9f0f-c003501da509" name="Changes" comment="add Date Adapter class">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/testing/jaxb/DateAdapter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/testing/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/testing/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/testing/jaxb/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/testing/jaxb/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/testing/jaxb/BookJAXB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/testing/jaxb/BookJAXB.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +18,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -27,52 +25,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
-  <component name="ProjectId" id="2K5DpFTSH90GCm0HdyTi9hTe6EL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
-  }
-}</component>
-  <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="org.testing.jaxb" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-      <recent name="org.testing" />
-    </key>
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.testing.Main" />
       <module name="OneMavenProject" />
@@ -86,100 +42,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Stringclass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stringclass" />
-      <module name="OneMavenProject" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringclassTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="OneMavenProject" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StringclassTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.StringclassTest" />
-        <item itemvalue="Application.Stringclass" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="7f3ca06d-9c3e-4917-8e53-d054ed3d533f" name="Changes" comment="" />
-      <created>1673255737272</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1673255737272</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Create MVN project">
-      <created>1673256058240</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1673256058240</updated>
-    </task>
-    <task id="LOCAL-00002" summary="change workspace xml files">
-      <created>1673257630955</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1673257630955</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Creating StringClass and StringClassTest Tests Add methods Isogram, Panagram and Anagram">
-      <created>1673264898831</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1673264898831</updated>
-    </task>
-    <task id="LOCAL-00004" summary="in StringClass and StringClassTest Add methods Equals, Lenght, CharAt SubString and IndexOf">
-      <created>1673286919371</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1673286919371</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="master" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Create MVN project" />
-    <MESSAGE value="change workspace xml files" />
-    <MESSAGE value="Creating StringClass Tests Add methods Isogram, Panagram and Anagram" />
-    <MESSAGE value="Creating StringClass and StringClassTest Tests Add methods Isogram, Panagram and Anagram" />
-    <MESSAGE value="in StringClass and StringClassTest Add methods Equals, Lenght, CharAt SubString and IndexOf" />
-    <MESSAGE value="create Xml file in project:&#10;marshal and unmarshal that xml files in JAXB technology" />
-    <option name="LAST_COMMIT_MESSAGE" value="create Xml file in project:&#10;marshal and unmarshal that xml files in JAXB technology" />
+    <MESSAGE value="add Date Adapter class" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Date Adapter class" />
   </component>
 </project>

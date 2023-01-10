@@ -1,6 +1,7 @@
 package org.testing.jaxb;
 
 import javax.xml.bind.annotation.*;
+import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 import java.util.Date;
 
 @XmlRootElement(name = "book")
@@ -24,8 +25,7 @@ public class Book {
     public void setAuthor(String author) {
         this.author = author;
     }
-    //@XmlJavaTypeAdapter(DateAdapter.class)
-    @XmlElement(name = "date")
+    @XmlJavaTypeAdapter(DateAdapter.class)
     public void setDate(Date date) {
         this.date = date;
     }

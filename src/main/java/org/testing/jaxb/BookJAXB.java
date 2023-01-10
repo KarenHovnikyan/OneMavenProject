@@ -17,9 +17,6 @@ public class BookJAXB {
         book.setAuthor("Author2");
         book.setDate(new Date());
 
-        //System.out.println(book.getId());
-
-
         JAXBContext context = JAXBContext.newInstance(Book.class);
         Marshaller mar = context.createMarshaller();
         mar.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);

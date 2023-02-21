@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45bed940-9a6b-475e-9f0f-c003501da509" name="Changes" comment="add Date Adapter class">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/testing/gson/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/testing/gson/BookJSON.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/testing/jacksonJaxb/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/testing/jacksonJaxb/CompanyJaxb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/testing/jacksonJson/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/testing/jacksonJson/BookJSON.java" afterDir="false" />
+    <list default="true" id="45bed940-9a6b-475e-9f0f-c003501da509" name="Changes" comment="add xml,json and csv files">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/testing/csv/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book.xml" beforeDir="false" afterPath="$PROJECT_DIR$/book.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/testing/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/testing/Main.java" afterDir="false" />
     </list>
@@ -46,6 +42,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2K90YyDDGL9p38Ah6XQjjAr3Lv8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -54,12 +57,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/khovn/IdeaProjects/ProjectOne",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.testing.Main" />
@@ -112,12 +118,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673371546519</updated>
+      <workItem from="1674553495077" duration="153000" />
+      <workItem from="1674564241049" duration="304000" />
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add packige jacksonjaxb, jacksonjson and gson">
+      <created>1673387103446</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673387103446</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add xml,json and csv files">
+      <created>1673523846126</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673523846126</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add Date Adapter class" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Date Adapter class" />
+    <MESSAGE value="add packige jacksonjaxb, jacksonjson and gson" />
+    <MESSAGE value="add xml,json and csv files" />
+    <option name="LAST_COMMIT_MESSAGE" value="add xml,json and csv files" />
   </component>
 </project>
